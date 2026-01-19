@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arr Floris - Rangkaian Bunga Elegan & Feminin</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- Menggunakan font Playfair Display untuk kesan feminin dan mewah -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            scroll-behavior: smooth;
+        }
+        /* Style khusus untuk elemen feminin */
+        .feminine-font {
+            font-family: 'Playfair Display', serif;
+        }
+        .bg-custom-pink { background-color: #FDF2F8; }
+        .text-custom-green { color: #166534; }
+        .bg-custom-green { background-color: #166534; }
+        .text-custom-brown { color: #78350F; }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, #FFF1F2 0%, #FDF2F8 100%);
+        }
+
+        .bg-mid-section {
+            background-color: #FFFAFB;
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-10px);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        .brand-text {
+            letter-spacing: -0.02em;
+        }
+    </style>
+</head>
+<body class="bg-mid-section text-gray-800">
+
+    <!-- Navbar -->
+    <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-lg border-b border-pink-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex items-center gap-3">
+                    <div class="w-12 h-12 overflow-hidden rounded-full flex items-center justify-center bg-pink-50 shadow-sm border border-pink-100">
+                        <img src="https://i.pinimg.com/originals/a1/a7/5c/a1a75c9bf9024e0f73bcec8ba0d459ed.png" alt="Logo Amor Floris" class="w-full h-full object-cover">
+                    </div>
+                    <span class="text-2xl font-bold feminine-font text-pink-800 italic brand-text">Arr Floris.</span>
+                </div>
+                <div class="hidden md:flex space-x-8 font-medium text-pink-900">
+                    <a href="#beranda" class="hover:text-pink-500 transition">Beranda</a>
+                    <a href="#koleksi" class="hover:text-pink-500 transition">Koleksi</a>
+                    <a href="#tentang" class="hover:text-pink-500 transition">Tentang Kami</a>
+                    <a href="https://wa.me/6285704067026" target="_blank" class="bg-pink-600 text-white px-7 py-2.5 rounded-full hover:bg-pink-700 transition shadow-md">Hubungi Kami</a>
+                </div>
+                <div class="md:hidden">
+                    <button class="text-pink-800"><i class="fas fa-bars text-2xl"></i></button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="beranda" class="pt-32 pb-20 hero-gradient overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 space-y-6 text-center md:text-left">
+                <span class="inline-block px-4 py-1 rounded-full bg-pink-100 text-pink-600 font-semibold text-xs uppercase tracking-[0.2em]">The Art of Floristry</span>
+                <h1 class="text-5xl md:text-7xl feminine-font text-pink-900 leading-tight">
+                    Keindahan <span class="italic font-normal">Abadi</span> Dalam <span class="text-custom-green">Bunga</span>
+                </h1>
+                <p class="text-lg text-gray-600 max-w-lg leading-relaxed">
+                    Amor Floris menghadirkan rangkaian tanaman hias dengan sentuhan kelembutan untuk merayakan setiap babak kehidupan Anda.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 pt-4 justify-center md:justify-start">
+                    <a href="#koleksi" class="px-8 py-4 bg-pink-600 text-white rounded-full font-bold shadow-lg hover:bg-pink-700 hover:shadow-xl transition flex items-center justify-center gap-2">
+                        Belanja Sekarang <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#" class="px-8 py-4 border-2 border-pink-200 text-pink-800 rounded-full font-bold hover:bg-white transition flex items-center justify-center">
+                        Katalog Musim Ini
+                    </a>
+                </div>
+            </div>
+            <div class="md:w-1/2 mt-12 md:mt-0 relative">
+                <div class="absolute -top-10 -left-10 w-72 h-72 bg-pink-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-pulse"></div>
+                <div class="relative bg-white p-5 rounded-[2.5rem] shadow-2xl rotate-2 card-hover mx-auto max-w-sm md:max-w-md">
+                    <img src="https://images.unsplash.com/photo-1526047932273-341f2a7631f9?q=80&w=800&auto=format&fit=crop" alt="Buket Bunga Amor Floris" class="rounded-[2rem] w-full h-[400px] md:h-[500px] object-cover">
+                    <div class="absolute -bottom-6 -right-6 bg-white p-4 rounded-2xl shadow-xl flex items-center gap-3 border border-pink-50">
+                        <div class="w-12 h-12 bg-pink-500 rounded-full flex items-center justify-center text-white">
+                            <i class="fas fa-heart text-lg"></i>
+                        </div>
+                        <div>
+                            <p class="font-bold text-sm text-pink-900">Kurasi Pilihan</p>
+                            <p class="text-xs text-gray-400 italic">Dibuat khusus untukmu</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Keunggulan Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
+                <div class="space-y-4 group">
+                    <div class="w-16 h-16 bg-pink-50 rounded-full flex items-center justify-center mx-auto text-pink-500 group-hover:bg-pink-500 group-hover:text-white transition-all duration-300">
+                        <i class="fas fa-magic text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl feminine-font font-bold text-pink-900">Desain Artistik</h3>
+                    <p class="text-sm text-gray-500 leading-relaxed">Setiap kelopak disusun dengan estetika tinggi untuk menciptakan harmoni visual yang memukau.</p>
+                </div>
+                <div class="space-y-4 group">
+                    <div class="w-16 h-16 bg-green-50 rounded-full flex items-center justify-center mx-auto text-custom-green group-hover:bg-custom-green group-hover:text-white transition-all duration-300">
+                        <i class="fas fa-tint text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl feminine-font font-bold text-pink-900">Kesegaran Abadi</h3>
+                    <p class="text-sm text-gray-500 leading-relaxed">Kami menggunakan teknologi hidrasi modern untuk memastikan bunga tetap segar lebih lama.</p>
+                </div>
+                <div class="space-y-4 group">
+                    <div class="w-16 h-16 bg-orange-50 rounded-full flex items-center justify-center mx-auto text-orange-400 group-hover:bg-orange-400 group-hover:text-white transition-all duration-300">
+                        <i class="fas fa-dove text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl feminine-font font-bold text-pink-900">Pelayanan Personal</h3>
+                    <p class="text-sm text-gray-500 leading-relaxed">Konsultasi gratis untuk memastikan setiap rangkaian mewakili pesan hati Anda secara sempurna.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Koleksi Section -->
+    <section id="koleksi" class="py-20 bg-pink-50/30">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
+                <div class="text-center md:text-left">
+                    <span class="text-pink-500 font-bold text-sm tracking-widest uppercase mb-2 block">Koleksi Kami</span>
+                    <h2 class="text-4xl md:text-5xl feminine-font text-pink-950">Rangkaian <span class="italic font-normal">Favorit</span></h2>
+                </div>
+                <a href="#" class="text-pink-600 font-bold border-b-2 border-pink-200 pb-1 hover:border-pink-600 transition">
+                    Lihat Koleksi Lengkap
+                </a>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Produk 1 -->
+                <div class="group bg-white rounded-[2rem] overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500 card-hover">
+                    <div class="relative h-72 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1561181286-d3fee7d55364?q=80&w=400&auto=format&fit=crop" alt="Mawar Pink" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                    </div>
+                    <div class="p-6 text-center">
+                        <h4 class="feminine-font font-bold text-lg text-pink-900 mb-2">Aura Rose Bouquet</h4>
+                        <p class="text-pink-600 font-bold mb-4">Rp 250.000</p>
+                        <button class="w-full py-3 bg-pink-50 text-pink-700 rounded-2xl text-sm font-bold hover:bg-pink-600 hover:text-white transition-colors duration-300">Pesan Sekarang</button>
+                    </div>
+                </div>
+
+                <!-- Produk 2 -->
+                <div class="group bg-white rounded-[2rem] overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500 card-hover">
+                    <div class="relative h-72 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?q=80&w=400&auto=format&fit=crop" alt="Bunga Matahari" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    </div>
+                    <div class="p-6 text-center">
+                        <h4 class="feminine-font font-bold text-lg text-pink-900 mb-2">Golden Sun Grace</h4>
+                        <p class="text-pink-600 font-bold mb-4">Rp 185.000</p>
+                        <button class="w-full py-3 bg-pink-50 text-pink-700 rounded-2xl text-sm font-bold hover:bg-pink-600 hover:text-white transition-colors duration-300">Pesan Sekarang</button>
+                    </div>
+                </div>
+
+                <!-- Produk 3 (Ethereal Lily - Diperbarui) -->
+                <div class="group bg-white rounded-[2rem] overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500 card-hover">
+                    <div class="relative h-72 overflow-hidden">
+                        <img src="image_6bd96b.jpg" alt="Ethereal Lily" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    </div>
+                    <div class="p-6 text-center">
+                        <h4 class="feminine-font font-bold text-lg text-pink-900 mb-2">Ethereal Lily</h4>
+                        <p class="text-pink-600 font-bold mb-4">Rp 320.000</p>
+                        <button class="w-full py-3 bg-pink-50 text-pink-700 rounded-2xl text-sm font-bold hover:bg-pink-600 hover:text-white transition-colors duration-300">Pesan Sekarang</button>
+                    </div>
+                </div>
+
+                <!-- Produk 4 -->
+                <div class="group bg-white rounded-[2rem] overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500 card-hover">
+                    <div class="relative h-72 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1591886960571-74d43a9d4166?q=80&w=400&auto=format&fit=crop" alt="Buket Lavender" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    </div>
+                    <div class="p-6 text-center">
+                        <h4 class="feminine-font font-bold text-lg text-pink-900 mb-2">Twilight Lavender</h4>
+                        <p class="text-pink-600 font-bold mb-4">Rp 210.000</p>
+                        <button class="w-full py-3 bg-pink-50 text-pink-700 rounded-2xl text-sm font-bold hover:bg-pink-600 hover:text-white transition-colors duration-300">Pesan Sekarang</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-pink-100 pt-20 pb-10 border-t border-pink-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+                <div class="space-y-6">
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 overflow-hidden rounded-full flex items-center justify-center bg-white shadow-sm">
+                            <img src="https://i.pinimg.com/originals/a1/a7/5c/a1a75c9bf9024e0f73bcec8ba0d459ed.png" alt="Logo Amor Floris" class="w-full h-full object-cover">
+                        </div>
+                        <span class="text-2xl font-bold feminine-font text-pink-900 italic">Arr Floris.</span>
+                    </div>
+                    <p class="text-pink-900/80 font-bold text-sm leading-relaxed">
+                        Curating emotions through the language of flowers. Mewujudkan setiap ekspresi cinta Anda melalui rangkaian bunga eksklusif.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="https://www.instagram.com/araaacth/" class="w-10 h-10 rounded-full bg-white flex items-center justify-center hover:bg-pink-600 hover:text-white transition shadow-sm text-pink-800"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-white flex items-center justify-center hover:bg-pink-600 hover:text-white transition shadow-sm text-pink-800"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-bold feminine-font text-lg mb-6 text-pink-950 underline decoration-pink-300 underline-offset-8">Tentang kami</h4>
+                    <ul class="space-y-3 text-pink-900 font-bold text-sm">
+                        <li><a href="#" class="fab fa-whatsapp hover:translate-x-2 inline-block transition-transform "> +6285704067026 </a></li>
+                        <li><a href="#" class="fab fa-maps hover:translate-x-2 inline-block transition-transform"> Jl Imam Bonjol No 214 </a></li>
+                        <li><a href="#" class="fab fa-dove">Layanan Korporat</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold feminine-font text-lg mb-6 text-pink-950 underline decoration-pink-300 underline-offset-8">Dukungan</h4>
+                    <ul class="space-y-3 text-pink-900 font-bold text-sm">
+                        <li><a href="#" class="hover:translate-x-2 inline-block transition-transform">Kebijakan Pengiriman</a></li>
+                        <li><a href="#" class="hover:translate-x-2 inline-block transition-transform">Perawatan Bunga</a></li>
+                        <li><a href="#" class="hover:translate-x-2 inline-block transition-transform">Hubungi Kami</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold feminine-font text-lg mb-6 text-pink-950 underline decoration-pink-300 underline-offset-8">Buletin Cantik</h4>
+                    <form class="flex flex-col gap-3">
+                        <input type="email" placeholder="Alamat email Anda" class="bg-white border border-pink-200 px-4 py-3 text-sm rounded-2xl focus:ring-2 focus:ring-pink-400 focus:outline-none text-pink-900 placeholder:text-pink-300 font-bold shadow-inner">
+                        <button class="bg-pink-800 py-3 rounded-2xl text-sm font-bold hover:bg-pink-950 transition text-white shadow-lg">Berlangganan</button>
+                    </form>
+                </div>
+            </div>
+            <div class="border-t border-pink-300 pt-10 text-center text-pink-900 font-bold text-[10px] tracking-[0.3em] uppercase">
+                <p>&copy; 2026 ARR FLORIS INDONESIA. ESTABLISHED TO SPREAD LOVE.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 50) {
+                nav.classList.add('shadow-lg', 'bg-white/95');
+            } else {
+                nav.classList.remove('shadow-lg', 'bg-white/95');
+            }
+        });
+    </script>
+</body>
+</html>
